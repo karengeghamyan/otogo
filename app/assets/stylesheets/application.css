@@ -1,0 +1,692 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree .
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+html {
+	background: url(../assets/html_bg.png) repeat-y;
+	background-position: center;
+	margin: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body, body img {
+	position: relative;
+	margin: auto;
+	border: none;
+}
+h5 {
+	color: #828d93;
+}
+/*------------ Style container -----------*/
+#container {
+
+}
+#wrapper {
+	background: url(../assets/header.jpg) no-repeat;
+	height: 659px;
+	width: 1200px;
+	margin: auto;
+}
+#header {
+	height: 65px;
+	width: 942px;
+	margin: auto;
+	padding-top: 27px;
+}
+/*------------ Style Slider -----------*/
+#services_slider {
+	margin-top: 30px;
+	width: 902px;
+	height: 338px;
+}
+.right_but {
+	float: right;
+}
+.verx {
+	margin-top: 60px;
+	margin-right: 235px;
+}
+.center_up {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.niz {
+	margin-top: 15px;
+}
+/*------------ Style menu -----------*/
+#services_menu {
+	position: absolute;
+	left: 70%;
+	top: 416px;
+}
+.services_menu_top {
+	width: 227px;
+	height: 242px;
+	background: url(../assets/services/menu_bg.png) no-repeat;
+}
+.services_menu_top ul li, .services_menu_bottom, .privace_menu_top ul li {
+	height: 21px;
+}
+.services_menu_top  h3, .services_menu_bottom  h3, .privace_menu_top h3 {
+	padding: 15px 22px;
+}
+.menu_foot_1px {
+	margin-left: 4px;
+}
+.services_menu_top ul li.first a, .services_menu_top ul li.second a, .services_menu_top ul li.theerd a, .services_menu_top ul li.seri1 a, .services_menu_top ul li.seri2 a, .privace_menu_top ul li.first a, .privace_menu_top ul li.second a, .privace_menu_top ul li.theerd a, .privace_menu_top ul li.seri1 a, .privace_menu_top ul li.seri2 a {
+	color: #2982c4;
+	padding-left: 50px;
+	font-weight: bold;
+	position: absolute;
+	height: 21px;
+	font-size: 12px;
+	background-position: 20px 0px;
+	background-repeat: no-repeat;
+}
+.services_menu_top ul li.first a, .privace_menu_top ul li.first a {
+	background-image: url(../assets/services/1menu.png);
+}
+.services_menu_top ul li.first a:hover, .privace_menu_top ul li.first a:hover {
+	color: #daab02;
+	padding-left: 50px;
+	font-weight: bold;
+	background-image: url(../assets/services/signup.png);
+	background-repeat: no-repeat;
+}
+.services_menu_top ul li.second a, .privace_menu_top ul li.second a {
+	background-image: url(../assets/services/2menu.png);
+}
+.services_menu_top ul li.second a:hover, .privace_menu_top ul li.second a:hover {
+	color: #daab02;
+	padding-left: 50px;
+	font-weight: bold;
+	background-image: url(../assets/services/signup.png);
+	background-repeat: no-repeat;
+}
+.services_menu_top ul li.theerd a, .privace_menu_top ul li.theerd a {
+	background-image: url(../assets/services/3menu.png);
+}
+.services_menu_top ul li.theerd a:hover, .privace_menu_top ul li.theerd a:hover {
+	color: #daab02;
+	padding-left: 50px;
+	font-weight: bold;
+	background-image: url(../assets/services/signup.png);
+	background-repeat: no-repeat;
+}
+.services_menu_top ul li.seri1 a, .privace_menu_top ul li.seri1 a {
+	background-image: url(../assets/services/4menu.png);
+	color: #8f989d;
+}
+.services_menu_top ul li.seri2 a, .privace_menu_top ul li.seri2 a {
+	background-image: url(../assets/services/5menu.png);
+	color: #8f989d;
+}
+.services_menu_top {
+	width: 227px;
+	height: 242px;
+	background: url(../assets/services/menu_bg.png) no-repeat;
+}
+.privace_menu_top {
+	width: 227px;
+	height: 242px;
+}
+.services_menu_bottom {
+	width: 229px;
+	height: 156px;
+	background: url(../assets/services/bottom.png) no-repeat;
+}
+.services_menu_bottom  ul li {
+	padding-left: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.services_menu_bottom  ul li a {
+	color: #8f989d;
+}
+/*------------ Style logo -----------*/
+#logo {
+	float: left;
+	background: url(../assets/logo.png) no-repeat;
+	height: 37px;
+	width: 15%;
+}
+/*------------ Style navigation and login,signup -----------*/
+#navigation {
+	float: right;
+	height: 37px;
+	width: 85%;
+}
+#navigation ul {
+	margin-left: 27%;
+}
+#navigation ul li {
+	float: left;
+	display: block;
+	margin-left: 7%;
+	margin-top: 8px;
+}
+#navigation ul a {
+	text-decoration: none;
+	color: #ffffff;
+	font: 12px museo-slab, sans-serif;
+	text-shadow: 2px 2px #5d9ed4;
+	font-weight: bold;
+}
+#navigation  a {
+	text-decoration: none;
+	margin-left: 3%;
+}
+/*------------ Style Siple-text -----------*/
+.simple_busines, .best_services {
+	margin-top: 50px;
+	clear: both;
+	font: 58px museo-slab, Helvetica Neue;
+	font-weight: bold;
+	color: #ffffff;
+	letter-spacing: 6px;
+	text-shadow: 2px -2px #4b90cd, 3px 2px #4b90cd, -2px -2px #4b90cd, 0 2px #4b90cd;
+}
+.ict_text, .ict_description {
+	color: #fff;
+	text-align: center;
+	margin-top: 25px;
+}
+.ict_description, .header, .ict_text, .header_services, .benefits_pic_title, .form_title span, .content_sign_2, #right_content_login h4 {
+	font: 21px museo-slab, Helvetica Neue, sans-serif;
+}
+/*------------ Style content -----------*/
+#content {
+	background: url(../assets/conteiner_bg.png) no-repeat;
+	margin: auto;
+	width: 1200px;
+	height: auto;
+}
+#topcolumn, .bottom_column {
+	width: 942px;
+	margin: auto;
+}
+.header, .header_services {
+	padding-top: 68px;
+	font-size: 22px;
+	color: #696969;
+	text-shadow: 1px 1px 1px #9d9d9d;
+}
+.header p, .center {
+	text-align: center;
+}
+.header b, .header_services, #right_services ul li b, #left_communications ul li b, #right_content_login ul li b
+.topcolumn_mine_benefits ul li b, .ps_benefits b, .form_title b, .topcolumn_mine ul li span b, .content_sign_2 b {
+	color: #000000;
+}
+.topcolumn_mine {
+	padding-top: 54px;
+	padding-bottom: 75px;
+}
+.topcolumn_mine ul li span {
+	font: 19px museo-slab, Helvetica Neue, sans-serif;
+	color: #8a949a;
+}
+.topcolumn_mine {
+	float: left;
+	font-size: 13px;
+}
+.topcolumn_mine ul, #mobile_logo ul li, #footer-rightcolumn ul li, #left_communications, .topcolumn_mine_benefits ul, #footer-container-bottom ul li, #footer-container-bottom p, .bottom_nav, #left_services, .content_sign_1, #left_content_login, .menu_1, .menu_2, .menu_3, .menu_4, #right_content_login ul {
+	float: left;
+}
+.topcolumn_mine ul li {
+	margin-top: 10px;
+}
+.topcolumn_mine ul li a {
+	color: #000;
+	text-decoration: none;
+}
+.underline {
+	border-bottom-color: #ccc;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+.left_ul {
+	margin-left: 47px;
+}
+#bottomcolumn {
+	clear: both;
+	border-top-color: #ededed;
+	border-top-width: 2px;
+	border-top-style: ridge;
+	width: 1006px;
+	margin: auto;
+}
+#bottomcolumn p {
+	padding: 42px 0px 10px 0px;
+}
+#mobile_logo {
+	padding: 15px 0px 65px 0px;
+}
+#mobile_logo ul li:first-child {
+	margin-left: 0px;
+}
+#mobile_logo ul li {
+	margin-left: 21px;
+	height: 40px;
+}
+#mobile_logo ul li a img {
+	vertical-align: middle;
+}
+/*------------ Style footer -----------*/
+
+#footer {
+	background: url(../assets/footer_bg.jpg) no-repeat;
+	margin: auto;
+	width: 1200px;
+	height: auto;
+	clear: both;
+}
+#footer-container-top {
+	width: 972px;
+	margin: auto;
+}
+#footer-lefcolumn {
+	float: left;
+	width: 70%;
+}
+.col1 {
+	float: left;
+	margin-left: 50px;
+	padding: 40px 0px 0px 0px;
+}
+.col1:first-child {
+	margin-left: 0px;
+}
+.col1 ul li:first-child, .content_sign ul li {
+	margin-top: 15px;
+}
+.col1 ul li a, #footer-rightcolumn ul li a, .content_privacy p {
+	font: 12px museo-slab, Helvetica Neue, sans-serif;
+	color: #8a949a;
+}
+#footer-rightcolumn {
+	float: right;
+	padding: 40px 0px 0px 0px;
+	width: 30%;
+}
+#footer-rightcolumn ul li {
+	margin-right: 20px;
+	text-align: center;
+	font: 11px museo-slab, Helvetica Neue, sans-serif;
+}
+#footer-rightcolumn ul {
+	margin-left: 50px;
+}
+#footer-rightcolumn ul li img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+#footer-rightcolumn ul li:last-child {
+	margin-right: 0px;
+}
+.right {
+	margin-right: 0px;
+	float: right;
+}
+#footer-container-bottom {
+	height: 72px;
+	clear: both;
+	font: 12px museo-slab, Helvetica Neue, sans-serif;
+}
+#footer-container-bottom p {
+	padding: 25px 0px;
+	color: #828d93;
+	font-weight: bold;
+}
+.bottom_nav {
+	padding: 25px 24px;
+}
+.bottom_nav ul li {
+	margin-left: 5px;
+	float: left;
+}
+.bottom_nav a {
+	text-decoration: none;
+	color: #8a949a;
+}
+.button_contact, #right_services, #right_communications, #services_menu, .content_sign_2, #right_content_login {
+	float: right;
+}
+/*------------ Style Services Page -----------*/
+
+.best_services {
+	text-align: center;
+}
+#content_services img {
+	z-index: -9999;
+}
+#content_services {
+	margin-top: 90px;
+	height: auto;
+	min-height: 125px;
+}
+#left_services {
+	width: 308px;
+	height: auto;
+}
+#right_services, #left_communications {
+	width: 67%;
+}
+#right_services ul li p, #left_communications ul li p, #right_content_login ul li p, #right_content_login h3, .topcolumn_mine ul li a, .content_sign {
+	font: 13px museo-slab, Helvetica Neue, sans-serif;
+	color: #8a949a;
+}
+#right_services ul li, #left_communications ul li, .services_menu_top ul li, #right_content_login ul li, .login_description p, .privace_menu_top ul li {
+	margin-top: 15px;
+}
+.see_more_services {
+	clear: both;
+	float: right;
+	top: -33px;
+}
+#content_communications, .foot_1px_bg {
+	clear: both;
+}
+.see_more_services_2 {
+	left: 40%;
+	top: -33px;
+}
+.see_more_services_3 {
+	left: 5%;
+	top: -33px;
+}
+#right_communications {
+	width: 308px;
+}
+/*------------ Style Privace Page -----------*/
+
+#wrapper_privace {
+	background: url(../assets/privace/wrapper_bg.jpg) no-repeat;
+	height: 318px;
+	width: 1200px;
+	margin: auto;
+}
+.ict_text_privacy, .privacy_description {
+	font: 19px museo-slab, Helvetica Neue, sans-serif;
+	color: #fff;
+	margin-top: 50px;
+}
+.ict_text_privacy  h2 {
+	font-weight: bold;
+}
+.best_services {
+	margin-top: 70px;
+}
+.privacy_description {
+	margin-top: 25px;
+}
+#privacy_menu {
+	position: absolute;
+	left: 70%;
+	top: 211px;
+	background: url(../assets/privace/privacy_menu_bg.png) no-repeat;
+	height: 273px;
+	width: 225px;
+}
+.privacy_menu_top {
+	background-image: none;
+}
+.content_privacy {
+	margin-top: 25px;
+}
+.content_privacy h6 {
+	margin-bottom: 5px;
+}
+.privacy_date {
+	margin: 35px 0px 80px 0px;
+	font-style: italic
+}
+/*------------ Style Benefits Page -----------*/
+
+.benefits_pic_title img {
+	height: 58px;
+	width: 67px;
+	vertical-align: middle;
+}
+.benefits_pic_title span, .bottom ul li img {
+	margin-left: 18px;
+}
+.topcolumn_mine_benefits {
+	margin-top: 10px;
+}
+.topcolumn_mine_benefits, .form, .bottom, #right_content_login ul, .topcolumn_mine ul li p {
+	font: 11px museo-slab, Helvetica Neue, sans-serif;
+	color: #8a949a;
+}
+.topcolumn_mine_benefits ul li:first-child {
+	color: #a0a0a0;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.ps_benefits {
+	clear: both;
+	margin: auto;
+	width: 942px;
+}
+.ps_benefits {
+	font: 21px museo-slab, Helvetica Neue, sans-serif;
+	color: #8a949a;
+	padding: 60px 0px;
+}
+/*------------ Style Sign Up Page -----------*/
+
+#wrapper_signup {
+	background: url(../assets/signup/wrapper_signup.png) no-repeat;
+	height: 446px;
+	width: 1200px;
+	margin: auto;
+}
+#form_signup {
+	background: url(../assets/signup/form_bg.png) no-repeat;
+	height: 538px;
+	width: 466px;
+	position: absolute;
+	left: 50%;
+	top: 300px;
+}
+.content_sign {
+	padding: 15px 0px;
+}
+.form_title {
+	padding: 40px 30px;
+}
+.content_sign ul li img, .bottom ul li img, #right_content_login ul li img {
+	margin-right: 5px;
+}
+.content_sign_2 {
+	margin-top: 130px;
+	color: #8a949a;
+}
+/*------------ Style Login Page -----------*/
+
+.login_description {
+	font: 19px museo-slab, Helvetica Neue, sans-serif;
+	margin-top: 64px;
+	color: #fff;
+}
+.login_description h2 {
+	font-weight: bold;
+	margin-left: 50px;
+}
+.login_description p {
+
+}
+#right_content_login {
+	margin-bottom: 150px;
+}
+#right_content_login h3 {
+	margin-bottom: 10px;
+	margin-top: 45px;
+}
+.app_button {
+	margin: 33px 25px;
+}
+#form_login {
+	background: url(../assets/login/login_form_bg.png) no-repeat;
+	height: 325px;
+	width: 468px;
+	position: absolute;
+	left: 50%;
+	top: 230px;
+}
+#topcolumn_login {
+	width: 1006px;
+	margin: auto;
+}
+#right_content_login {
+	width: 80%;
+}
+.name {
+	float: left;
+	width: 25%;
+}
+.name  li {
+	text-align: right;
+	margin-top: 27px;
+	height: 20px;
+}
+.type {
+	float: right;
+	width: 70%
+}
+.type li {
+	text-align: left;
+	margin-top: 25px;
+	height: 20px;
+}
+.input {
+	width: 295px;
+}
+.login_button {
+	background: url(../assets/login.png) no-repeat;
+	width: 90px;
+	height: 37px;
+	background-position: center;
+	border: none;
+	background-color: transparent;
+}
+.sign_button {
+	background: url(../assets/sigup.png) no-repeat;
+	width: 90px;
+	height: 37px;
+	background-position: center;
+	border: none;
+	background-color: transparent;
+}
+/*------------ Style Price Plan Page -----------*/
+
+#wrapper_planprice {
+	background: url(../assets/planprice/header.png) no-repeat;
+	height: 474px;
+	width: 1200px;
+	margin: auto;
+}
+#planc_price {
+	height: 325px;
+	width: 948px;
+	position: absolute;
+	left: 20%;
+	top: 300px;
+}
+.header_privace {
+	padding-top: 350px;
+}
+.header_privace img, .foot_1px_bg {
+	margin-bottom: 70px;
+}
+#topcolumn_privace {
+	width: 942px;
+	margin: auto;
+}
+.menu_1 {
+	background: url(../assets/planprice/1_bg.png) no-repeat;
+	height: 474px;
+	width: 231px;
+}
+.menu_2 {
+	background: url(../assets/planprice/2_bg.png) no-repeat;
+	height: 476px;
+	width: 227px;
+}
+.menu_3 {
+	background: url(../assets/planprice/3_bg_3.png) no-repeat;
+	height: 490px;
+	width: 274px;
+	margin-top: -10px;
+}
+.menu_4 {
+	background: url(../assets/planprice/4_bg.png) no-repeat;
+	height: 474px;
+	width: 211px;
+}
+.top {
+	height: 115px;
+	text-align: center;
+}
+.top p {
+	font: 11px museo-slab, Helvetica Neue, sans-serif;
+	color: #ccc;
+}
+.top h4 {
+	color: #fcc818;
+	font: 26px museo-slab, Helvetica Neue;
+}
+.top h3 {
+	font: 29px museo-slab, Helvetica Neue;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 15px;
+	text-shadow: 2px -2px #4b90cd, 3px 2px #4b90cd, -2px -2px #4b90cd, 0 2px #4b90cd;
+}
+.bottom h6 {
+	width: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+.start_free, .bottom ul li {
+	margin-top: 11px;
+}
+.pic {
+	margin: 15px 45px;
+}
+.pic_free {
+	margin: 15px 65px;
+}	
