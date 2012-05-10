@@ -1,0 +1,185 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %title= h yield(:title)
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "keywords"}/
+    = stylesheet_link_tag "application"
+    = stylesheet_link_tag "feature-carousel"
+    = stylesheet_link_tag "slider"
+    = javascript_include_tag "application"
+  <body
+  #container
+    / start container
+    #wrapper
+      / start wrapper
+      #header
+        / start header
+        #logo
+          / start logo
+        / end logo
+        #navigation
+          / start navigation
+          %ul
+            %li
+              %a{:href => "#"} SERVICES
+            %li
+              %a{:href => "#"} BENEFITS
+            %li
+              %a{:href => "#"} PLAN&PRACING
+          %a{:href => "#"}
+            %img{:src => "/assets/login.png"}/
+          %a{:href => "#"}
+            %img{:src => "/assets/sigup.png"}/
+        / end navigation
+        .simple_busines
+          / start simple_busines
+          Simplify your digital business!
+        / end simple_busines
+        .ict_text
+          / start ict_text
+          %h2 ICT Cloud Services - For Small and Medium Businesses
+        / end ict_text
+        .ict_description
+          / start ict_description
+          Select and provision all your office applications, services and devices from one easy to use location
+        / end ict_description
+        #services_slider
+          .carousel-container
+            #carousel
+              .carousel-feature
+                %a{:href => "#"}
+                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample1.jpg"}/
+                .carousel-caption
+              .carousel-feature
+                %a{:href => "#"}
+                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample2.jpg"}/
+                .carousel-caption
+              .carousel-feature
+                %a{:href => "#"}
+                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample3.jpg"}/
+                .carousel-caption
+              .carousel-feature
+                %a{:href => "#"}
+                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample4.jpg"}/
+              .carousel-feature
+                %a{:href => "#"}
+                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample5.jpg"}/
+                .carousel-caption
+          .right_but
+            .verx
+              %img{:src => "/assets/strelka_verx.png"}/
+            .center_up
+              %a{:href => "#"}
+                %img{:src => "/assets/signupnow.png"}/
+            .niz
+              %img{:src => "/assets/strelka_niz.png"}/
+      / end header
+    / end wrapper
+    = yield
+  / end container
+  #footer
+    #footer-container-top
+      / start footer-container-top
+      #footer-lefcolumn
+        / start lefcolumn
+        .col1
+          %h5 Solutions
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Services
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Benefits
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Company
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Plan & Pricing
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+      / end lefcolumn
+      #footer-rightcolumn
+        / start footer-bar
+        %ul
+          %li
+            %a{:href => "#"}
+              %img{:src => "/assets/facebook.png"}
+                %p Facebook
+          %li
+            %a{:href => "#"}
+              %img{:src => "/assets/twitter.png"}
+                %p Twitter
+          %li
+            %a{:href => "#"}
+              %img{:src => "/assets/blog.png"}
+                %p Blog
+          %li.right
+            %a{:href => "#"}
+              %img{:src => "/assets/youtub.png"}
+                %p YouTube
+      / end footer-bar
+      #footer-container-bottom
+        / start footer-container-bottom
+        %p © 2009, 2010 Mobile Tribe Management Corporation
+        .bottom_nav
+          %ul
+            %li
+              %a{:href => "#"} About Us
+            %li
+              %a{:href => "#"} |Contact Us
+            %li
+              %a{:href => "#"} |Privacy
+            %li
+              %a{:href => "#"} |Help
+            %li
+              %a{:href => "#"} |Blog
+            %li
+              %a{:href => "#"} Contact Us
+        .button_contact
+          %a{:href => "#"}
+            %img{:src => "/assets/cont_us.png"}/
+      / end footer-container-bottom
+    / end footer-container-top
+  / end footer

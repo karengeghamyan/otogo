@@ -1,4 +1,6 @@
 Testproject::Application.routes.draw do
+  resources :test2s
+
   resources :news
 
   get "home/index"
