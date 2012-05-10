@@ -1,8 +1,5 @@
 Testproject::Application.routes.draw do
-  resources :test2s
-
-  resources :news
-
+  root :to => 'home#index'
   get "home/index"
 
   # The priority is based upon order of creation:
