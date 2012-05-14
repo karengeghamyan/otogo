@@ -1,0 +1,2187 @@
+Script started on Fri 11 May 2012 09:32:31 PM AMST
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# script/console
+bash: script/console: No such file or directory
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# rails console
+Loading development environment (Rails 3.1.3)
+1.9.2-p290 :001 > new[K[K[Kproduct.find(:all)
+NameError: undefined local variable or method `product' for main:Object
+	from (irb):1
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands/console.rb:45:in `start'
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands/console.rb:8:in `start'
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands.rb:40:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.2-p290 :002 > Product.find(:all)
+NameError: uninitialized constant Product
+	from (irb):2
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands/console.rb:45:in `start'
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands/console.rb:8:in `start'
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands.rb:40:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.2-p290 :003 > sudo apt-get install libreadline5-dev
+SyntaxError: (irb):3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+sudo apt-get install libreadline5-dev
+                    ^
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands/console.rb:45:in `start'
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands/console.rb:8:in `start'
+	from /usr/local/rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/commands.rb:40:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+1.9.2-p290 :004 > ^C
+1.9.2-p290 :004 > ^C
+1.9.2-p290 :004 > ^C
+1.9.2-p290 :004 > ^C
+1.9.2-p290 :004 > ^C
+1.9.2-p290 :004 > exit
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# sudo apt-get install libreadline5-d ev
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+libreadline5-dev is already the newest version.
+The following packages were automatically installed and are no longer required:
+  librack-ruby libmemcache-client-ruby1.8 libncurses-ruby1.8
+  libdaemons-ruby1.8 libbuilder-ruby1.8 libactionmailer-ruby1.8
+  librack-ruby1.8 libcmdparse2-ruby1.8 libredcloth-ruby1.8 libi18n-ruby1.8
+  libactiveresource-ruby1.8 libtmail-ruby1.8 libtzinfo-ruby1.8
+  libactivesupport-ruby1.8 libmocha-ruby1.8 libactiverecord-ruby1.8
+  libsqlite3-ruby1.8 libactionpack-ruby1.8 rubygems1.8 libjs-prototype
+  liblog4r-ruby1.8 libtext-format-ruby1.8
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 322 not upgraded.
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject#  ruby extconf.rb
+ruby: No such file or directory -- extconf.rb (LoadError)
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# cd ~/.rvm/src/ruby-1.9.2-p180/ext/r eadline/
+bash: cd: /root/.rvm/src/ruby-1.9.2-p180/ext/readline/: No such file or directory
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# cd ~/.rvm/src/ruby-1.9.2-p180/ext/r eadline/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: cd: /root/.rvm/src/ruby-1.9.2-p180/ext/readline/: No such file or directory
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# cd ~/.rvm/src/ruby-1.9.2-p180/ext/reeadline/[A]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# sudo apt-get install libreadline5-dev[K[A]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# cd ~/.rvm/src/ruby-1.9.2-p180/ext/readline/[A]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails console
+Loading development environment (Rails 3.1.3)
+1.9.2-p290 :001 > exit
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# ls
+[0m[34;42mapp[0m        [34;42mdb[0m       [01;32mGemfile.lock[0m  [34;42mpublic[0m    [34;42mscript[0m  typescript
+[34;42mconfig[0m     [34;42mdoc[0m      [34;42mlib[0m           [01;32mRakefile[0m  [34;42mtest[0m    [34;42mvendor[0m
+[01;32mconfig.ru[0m  [01;32mGemfile[0m  [34;42mlog[0m           [01;32mREADME[0m    [34;42mtmp[0m
+]0;root@alphasoft: /var/www/rortest/testprojectroot@alphasoft:/var/www/rortest/testproject# cd log/
+]0;root@alphasoft: /var/www/rortest/testproject/logroot@alphasoft:/var/www/rortest/testproject/log# ls
+[0m[01;32mdevelopment.log[0m
+]0;root@alphasoft: /var/www/rortest/testproject/logroot@alphasoft:/var/www/rortest/testproject/log# vim development.log 
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"development.log" 15446L, 631070C[>c[3;1HStarted GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:36:52 +0500
+Served asset /rails.png - 200 OK (41ms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:49:59 +0500
+Served asset /rails.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:50:06 +0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:50:32 +0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:50:33 +0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:50:33 +0500[24;63H1,0-1[9CTop[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:50:33 +0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 16:50:33 +0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:51:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (91..[17;1H8ms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:52:56 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):[24;63H22,0-1[9C0%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[6;1Hms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:02 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[14;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_request_and_response.erb (42.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (92.2mm[20;1Hs)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:39 +0500[24;63H41,1[11C0%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/" for 192.168.1.102 at 2012-05-09 16:59:39 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[7;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0mm[13;1Hs)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:40 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[21;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H56,0-1[9C0%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[8;1H)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:41 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[16;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[22;1H)[24;63H[K[24;63H71,0-1[9C0%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/" for 192.168.1.102 at 2012-05-09 16:59:41 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[11;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[17;1H)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:42 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[24;63H[K[24;63H84,1[11C0%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[4;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[10;1H)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:42 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[18;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H99,1[11C0%[1;1H[?12l[?25h[?25l[1;23r[1;1H[17M[1;24r[5;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[7;1H)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 16:59:42 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[15;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7mss[21;1H)[24;63H[K[24;63H112,1[10C0%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/" for 192.168.1.102 at 2012-05-09 16:59:42 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[8;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[14;1H)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:00:51 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[22;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)[24;63H125,0-1[8C0%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[3;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/_request_and_response.erb (20.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.7mm[8;1Hs)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:00:57 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[16;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[22;1H)[24;63H141,0-1[8C0%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/" for 192.168.1.102 at 2012-05-09 17:01:56 +0500
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):[11;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[17;1H)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:10:14 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):[24;63H[K[24;63H154,1[10C0%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41..[6;1H7ms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:13:10 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[16;1Hms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:13:29 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):[24;63H169,1[10C1%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41..[5;1H1ms)
+
+
+Started GET "/home" for 192.168.1.102 at 2012-05-09 17:13:36 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:14:08 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 12.7ms | ActiveRecord: 0.0ms)[24;63H186,2[10C1%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[4;1H7:14:08 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[7;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[12;1Hms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:14:08 +055[16;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[21;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[23;1Hms)[24;63H203,0-1[8C1%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[8;1H5-09 17:14:08 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[11;1Harousel.min.js"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[16;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:14:00[20;1H8 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[23;1Hjs"):[24;63H[K[24;63H217,0-1[8C1%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[3;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[8;1Hms)
+
+
+Started GET "/home/img/login.png" for 192.168.1.102 at 2012-05-09 17:14:09 +0500[13;1HActionController::RoutingError (No route matches [GET] "/home/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[18;1Hms)
+
+
+Started GET "/home/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:14:09 +0500[23;1HActionController::RoutingError (No route matches [GET] "/home/img/sigup.png"):[24;63H230,0-1[8C1%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/home/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/home/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:144[11;1H:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample22[14;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[19;1Hms)
+
+
+Started GET "/home/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:144[23;1H:09 +0500[24;63H246,0-1[8C1%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:144[3;1H:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample44[6;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/home/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:144[15;1H:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample11[18;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[23;1Hms)[24;63H260,0-1[8C1%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:144[8;1H:09 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[11;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[20;1H)
+
+
+Started GET "/home/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:14[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H273,0-1[8C1%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:144[4;1H:19 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample55[7;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.66[12;1Hms)
+
+
+Started GET "/home/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:14:11[16;1H9 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_verx.pp[19;1Hng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H285,0-1[8C1%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:14:199[9;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_niz.pnn[12;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/home/img/PG.png" for 192.168.1.102 at 2012-05-09 17:14:19 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/PG.png"):[24;63H[K[24;63H298,2[10C1%[1;2H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/img/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[6;1Hms)
+
+
+Started GET "/home/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:14:19 ++[10;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/signupnow.png""[13;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[18;1Hms)
+
+
+Started GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:14:19 +00[22;1H500[24;63H313,1[10C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:14:19 +00[2;1H500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[5;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[14;1H)
+
+
+Started GET "/home/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:14:29 +055[18;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/balfour.png"):[23;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H327,1[10C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:14:29 ++[9;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/greygroup.png""[12;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/home/img/jaylormade.png" for 192.168.1.102 at 2012-05-09 17:14:29  [21;1H+0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.png[23;1H[1m[34m@                                                                               [m[24;63H340,2[10C2%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.pngg[5;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/home/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:14:29 +055[14;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/pandora.png"):[19;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[21;1Hms)[24;63H[K[24;63H353,1[10C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/giants.png" for 192.168.1.102 at 2012-05-09 17:14:29 +0500[4;1H0
+
+ActionController::RoutingError (No route matches [GET] "/home/img/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/home/img/media.png" for 192.168.1.102 at 2012-05-09 17:14:29 +0500[16;1HActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[17;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)[24;63H367,0-1[8C2%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[5;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[7;1H)
+
+
+Started GET "/home/img/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 17:14::[11;1H39 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cleare-chanel..[14;1Hpng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.00[19;1Hms)
+
+
+Started GET "/home/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:14:39 +055[23;1H00[24;63H[K[24;63H382,1[10C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:14:39 +055[3;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/izvizio.png"):[8;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.66[10;1Hms)
+
+
+Started GET "/home/img/facebook.png" for 192.168.1.102 at 2012-05-09 17:14:39 +00[14;1H500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/facebook.png"))[17;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H394,0-1[8C2%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/twitter.png" for 192.168.1.102 at 2012-05-09 17:14:39 +055[7;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/twitter.png"):[12;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[14;1Hms)
+
+
+Started GET "/home/img/blog.png" for 192.168.1.102 at 2012-05-09 17:14:39 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/blog.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H[K[24;63H408,1[10C2%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/youtub.png" for 192.168.1.102 at 2012-05-09 17:14:39 +0500[9;1H0
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[12;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[21;1H)[24;63H[K[24;63H422,2[10C2%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/cont_us.png" for 192.168.1.102 at 2012-05-09 17:14:49 +055[4;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cont_us.png"):[9;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[11;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:15:30 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:15:30 +055[21;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[24;63H435,0-1[8C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[5;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[11;1H7:15:30 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[14;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[19;1Hms)
+
+
+Started GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[23;1H5-09 17:15:30 +0500[24;63H452,0-1[8C2%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[3;1H5-09 17:15:30 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[6;1Harousel.min.js"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[11;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:15:33[15;1H0 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[18;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[23;1Hms)[24;63H466,0-1[8C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/img/login.png" for 192.168.1.102 at 2012-05-09 17:15:31 +0500[9;1HActionController::RoutingError (No route matches [GET] "/home/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[14;1Hms)
+
+
+Started GET "/home/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:155[18;1H:31 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample33[21;1H.jpg"):[24;63H[K[24;63H479,0-1[8C3%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:155[9;1H:31 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample11[12;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/home/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:155[21;1H:31 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection wit[23;1H[1m[34m@                                                                               [m[24;63H494,2[10C3%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[5;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7mss[14;1H)
+
+
+Started GET "/home/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:15:41 +0500[19;1HActionController::RoutingError (No route matches [GET] "/home/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H[K[24;63H507,1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:155[9;1H:41 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample22[12;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/home/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:15:44[21;1H1 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_verx.p[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H520,2[10C3%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/img/strelka_verx.pp[5;1Hng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/home/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:155[14;1H:41 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample55[17;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H[K[24;63H533,1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:15:41 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/signupnow.png""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:15:41 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[21;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):[24;63H[K[24;63H546,1[10C3%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[9;1H)
+
+
+Started GET "/home/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:15:511[13;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_niz.pnn[16;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[21;1Hms)[24;63H560,2[10C3%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/PG.png" for 192.168.1.102 at 2012-05-09 17:15:51 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:15:51 +00[14;1H500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/sixflags.png"))[17;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H573,0-1[8C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:15:51 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/greygroup.png""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/home/img/jaylormade.png" for 192.168.1.102 at 2012-05-09 17:15:51  [19;1H+0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.pngg[22;1H"):[24;63H[K[24;63H588,1[10C3%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.pngg[2;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/home/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:15:51 +055[11;1H00
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[14;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4mm[23;1Hs)[24;63H601,1[10C3%[1;1H[?12l[?25h[?25l[1;23r[1;1H[18M[1;24r[8;1HStarted GET "/home/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:16:01 +055[9;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/pandora.png"):[14;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.88[16;1Hms)
+
+
+Started GET "/home/img/giants.png" for 192.168.1.102 at 2012-05-09 17:16:01 +0500[20;1H0
+
+ActionController::RoutingError (No route matches [GET] "/home/img/giants.png"):[24;63H[K[24;63H613,1[10C3%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/img/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[6;1Hms)
+
+
+Started GET "/home/img/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 17:16::[10;1H01 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cleare-chanel..[13;1Hpng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[18;1Hms)
+
+
+Started GET "/home/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:16:01 +055[22;1H00[24;63H627,1[10C4%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/home/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:16:01 +055[2;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/izvizio.png"):[7;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[9;1Hms)
+
+
+Started GET "/home/img/media.png" for 192.168.1.102 at 2012-05-09 17:16:01 +0500[14;1HActionController::RoutingError (No route matches [GET] "/home/img/media.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[19;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:16:01 +0500[24;63H641,1[10C4%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/home/index" for 192.168.1.102 at 2012-05-09 17:16:01 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[4;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[13;1H)
+
+
+Started GET "/home/img/facebook.png" for 192.168.1.102 at 2012-05-09 17:16:11 +00[17;1H500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/facebook.png"))[20;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H657,1[10C4%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/img/twitter.png" for 192.168.1.102 at 2012-05-09 17:16:11 +055[9;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/twitter.png"):[14;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[16;1Hms)
+
+
+Started GET "/home/img/blog.png" for 192.168.1.102 at 2012-05-09 17:16:11 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/blog.png"):[24;63H670,2[10C4%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/youtub.png" for 192.168.1.102 at 2012-05-09 17:16:11 +0500[9;1H0
+
+ActionController::RoutingError (No route matches [GET] "/home/img/youtub.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[16;1Hms)
+
+
+Started GET "/home/img/cont_us.png" for 192.168.1.102 at 2012-05-09 17:16:11 +055[20;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cont_us.png"):[24;63H686,2[10C4%[1;2H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/img/cont_us.png"):[4;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[6;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:16:11 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:16:16 +055[16;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[21;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[23;1Hms)[24;63H701,1[10C4%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:16:11[8;1H6 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[11;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[16;1Hms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[20;1H7:16:16 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[23;1Husel.css"):[24;63H[K[24;63H717,0-1[8C4%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[3;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[8;1Hms)
+
+
+Started GET "/home/img/login.png" for 192.168.1.102 at 2012-05-09 17:16:17 +0500[13;1HActionController::RoutingError (No route matches [GET] "/home/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.11[18;1Hms)
+
+
+Started GET "/home/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:166[22;1H:17 +0500[24;63H730,0-1[8C4%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/home/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:166[2;1H:17 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample11[5;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/home/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:166[14;1H:17 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample22[17;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H745,1[10C4%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:16:17 +0500[8;1HActionController::RoutingError (No route matches [GET] "/home/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[13;1Hms)
+
+
+Started GET "/home/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:166[17;1H:17 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample33[20;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H758,1[10C4%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:166[9;1H:17 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[12;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[21;1H)[24;63H772,2[10C4%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:166[4;1H:27 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample55[7;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[12;1Hms)
+
+
+Started GET "/home/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:16:22[16;1H7 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_verx.pp[19;1Hng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H785,0-1[8C5%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:16:27 ++[9;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/signupnow.png""[12;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/home/img/PG.png" for 192.168.1.102 at 2012-05-09 17:16:27 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/PG.png"):[24;63H[K[24;63H798,2[10C5%[1;2H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/img/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[6;1Hms)
+
+
+Started GET "/home/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:16:277[10;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_niz.pnn[13;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[18;1Hms)
+
+
+Started GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:16:27 +00[22;1H500[24;63H813,1[10C5%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:16:27 +00[2;1H500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[5;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[14;1H)
+
+
+Started GET "/home/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:16:37 +055[18;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/balfour.png"):[23;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H827,1[10C5%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/img/jaylormade.png" for 192.168.1.102 at 2012-05-09 17:16:37  [9;1H+0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.pngg[12;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/home/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:16:37 ++[21;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/greygroup.png"[23;1H[1m[34m@                                                                               [m[24;63H840,2[10C5%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/img/greygroup.png""[5;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/home/img/giants.png" for 192.168.1.102 at 2012-05-09 17:16:37 +0500[14;1H0
+
+ActionController::RoutingError (No route matches [GET] "/home/img/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[21;1Hms)[24;63H[K[24;63H853,1[10C5%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:16:37 +055[4;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/pandora.png"):[9;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:16:37 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[17;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)[24;63H867,0-1[8C5%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[5;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3mm[7;1Hs)
+
+
+Started GET "/home/img/media.png" for 192.168.1.102 at 2012-05-09 17:16:47 +0500[12;1HActionController::RoutingError (No route matches [GET] "/home/img/media.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[17;1Hms)
+
+
+Started GET "/home/img/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 17:16::[21;1H47 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cleare-chanel.[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H882,1[10C5%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/img/cleare-chanel..[5;1Hpng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/home/img/facebook.png" for 192.168.1.102 at 2012-05-09 17:16:47 +00[14;1H500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/facebook.png"))[17;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H[K[24;63H895,1[10C5%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/twitter.png" for 192.168.1.102 at 2012-05-09 17:16:47 +055[7;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/twitter.png"):[12;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[14;1Hms)
+
+
+Started GET "/home/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:16:47 +055[18;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/izvizio.png"):[23;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H908,1[10C5%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/blog.png" for 192.168.1.102 at 2012-05-09 17:16:47 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/blog.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/home/img/youtub.png" for 192.168.1.102 at 2012-05-09 17:16:52 +0500[19;1H0
+
+ActionController::RoutingError (No route matches [GET] "/home/img/youtub.png"):[24;63H922,2[10C5%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:16:52 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[15;1H7:16:52 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[18;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[23;1Hms)[24;63H938,2[10C6%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:16:52 +055[8;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[13;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:16:55[19;1H2 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[22;1Hjs"):[24;63H[K[24;63H953,0-1[8C6%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[2;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/home/img/login.png" for 192.168.1.102 at 2012-05-09 17:16:52 +0500[12;1HActionController::RoutingError (No route matches [GET] "/home/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[17;1Hms)
+
+
+Started GET "/home/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:166[21;1H:52 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample4[23;1H[1m[34m@                                                                               [m[24;63H967,1[10C6%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/img/slider/sample44[5;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/home/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:166[14;1H:52 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample22[17;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H[K[24;63H981,1[10C6%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:166[7;1H:52 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample11[10;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/home/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:16:52 +0500[20;1HActionController::RoutingError (No route matches [GET] "/home/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H994,1[10C6%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:166[9;1H:52 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[12;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7mss[21;1H)[24;63H1008,2[9C6%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:177[4;1H:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/slider/sample55[7;1H.jpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.77[12;1Hms)
+
+
+Started GET "/home/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:17:00[16;1H3 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_verx.pp[19;1Hng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H1021,0-1[7C6%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:17:03 ++[9;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/signupnow.png""[12;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/home/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:17:033[21;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/strelka_niz.pn[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H1034,2[9C6%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/img/strelka_niz.pnn[5;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/home/img/PG.png" for 192.168.1.102 at 2012-05-09 17:17:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[20;1Hms)
+
+
+Started GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:17:03 +0[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H1047,1[9C6%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:17:03 +00[4;1H500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[7;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2mm[16;1Hs)
+
+
+Started GET "/home/img/jaylormade.png" for 192.168.1.102 at 2012-05-09 17:17:13  [20;1H+0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.pngg[23;1H"):[24;63H1061,0-1[7C6%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/home/img/jaylormade.pngg[3;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[8;1Hms)
+
+
+Started GET "/home/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:17:13 +055[12;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/balfour.png"):[17;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[19;1Hms)
+
+
+Started GET "/home/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:17:13 ++[23;1H0500[24;63H1074,0-1[7C6%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:17:13 ++[3;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/greygroup.png""[6;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[11;1Hms)
+
+
+Started GET "/home/img/giants.png" for 192.168.1.102 at 2012-05-09 17:17:13 +0500[15;1H0
+
+ActionController::RoutingError (No route matches [GET] "/home/img/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H1088,0-1[7C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:17:13 +055[7;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/pandora.png"):[12;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[14;1Hms)
+
+
+Started GET "/home/img/media.png" for 192.168.1.102 at 2012-05-09 17:17:13 +0500[19;1HActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[20;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H1102,1[9C7%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0mm[9;1Hs)
+
+
+Started GET "/home/img/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 17:17::[13;1H23 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cleare-chanel..[16;1Hpng"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.00[21;1Hms)[24;63H1116,2[9C7%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:17:23 +055[4;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/izvizio.png"):[9;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/home/img/twitter.png" for 192.168.1.102 at 2012-05-09 17:17:23 +055[15;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/twitter.png"):[20;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[22;1Hms)[24;63H1129,0-1[7C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/home/img/facebook.png" for 192.168.1.102 at 2012-05-09 17:17:23 +00[7;1H500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/facebook.png"))[10;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/home/img/blog.png" for 192.168.1.102 at 2012-05-09 17:17:23 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/img/blog.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H1144,1[9C7%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[5;1Hms)
+
+
+Started GET "/home/img/youtub.png" for 192.168.1.102 at 2012-05-09 17:17:23 +0500[9;1H0
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[12;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1mm[21;1Hs)[24;63H1158,2[9C7%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/img/cont_us.png" for 192.168.1.102 at 2012-05-09 17:17:33 +055[4;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/img/cont_us.png"):[9;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:18:52 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:18:55[21;1H2 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min.[23;1H[1m[34m@                                                                               [m[24;63H1171,0-1[7C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[5;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:18:52 +055[14;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[19;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[21;1Hms)[24;63H[K[24;63H1187,1[9C7%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[4;1H7:18:52 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[7;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[12;1Hms)
+
+
+Started GET "/img/login.png" for 192.168.1.102 at 2012-05-09 17:18:53 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H1201,0-1[7C7%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:18:53 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample1.jpg""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:18:53 ++[19;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample3.jpg""[22;1H):[24;63H[K[24;63H1216,1[9C7%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/img/slider/sample3.jpg""[2;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:18:53 ++[11;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample4.jpg""[14;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[19;1Hms)
+
+
+Started GET "/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:18:53 ++[23;1H0500[24;63H1229,1[9C7%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:18:53 ++[3;1H0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[6;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3mm[15;1Hs)
+
+
+Started GET "/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:19:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H1242,0-1[7C8%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:19:03 ++[9;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample5.jpg""[12;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:19:03 +055[21;1H00
+
+ActionController::RoutingError (No route matches [GET] "/img/strelka_verx.png"):[24;63H1256,2[9C8%[1;2H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/img/strelka_verx.png"):[5;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:19:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/signupnow.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:19:03 +0500[21;1H0
+
+ActionController::RoutingError (No route matches [GET] "/img/strelka_niz.png"):[24;63H1270,0-1[7C8%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/img/strelka_niz.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/img/PG.png" for 192.168.1.102 at 2012-05-09 17:19:03 +0500
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 17:20:26 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (90..[20;1H2ms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:20:33 +0500[24;63H1286,0-1[7C8%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/index" for 192.168.1.102 at 2012-05-09 17:20:33 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[9;1H7:20:33 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[12;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:20:33[21;1H3 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min.[23;1H[1m[34m@                                                                               [m[24;63H1303,0-1[7C8%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[5;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:20:33 +055[14;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[19;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[21;1Hms)[24;63H[K[24;63H1318,1[9C8%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/img/login.png" for 192.168.1.102 at 2012-05-09 17:20:33 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:20:33 ++[14;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample1.jpg""[17;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[22;1Hms)[24;63H1332,0-1[7C8%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:20:33 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample2.jpg""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:20:33 ++[19;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample4.jpg""[22;1H):[24;63H[K[24;63H1347,1[9C8%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/img/slider/sample4.jpg""[2;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:20:33 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:20:33 ++[21;1H0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection wit[23;1H[1m[34m@                                                                               [m[24;63H1360,1[9C8%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[5;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[14;1H)
+
+
+Started GET "/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:20:43 ++[18;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample5.jpg""[21;1H):[24;63H[K[24;63H1374,1[9C8%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:20:43 +055[9;1H00
+
+ActionController::RoutingError (No route matches [GET] "/img/strelka_verx.png"):[14;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[16;1Hms)
+
+
+Started GET "/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:20:44 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/signupnow.png"):[24;63H1387,2[9C8%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/img/PG.png" for 192.168.1.102 at 2012-05-09 17:20:44 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:20:44 +0500[19;1H0
+
+ActionController::RoutingError (No route matches [GET] "/img/strelka_niz.png"):[24;63H1403,2[9C9%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:20:44 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[11;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7mss[20;1H)
+
+
+Started GET "/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500[24;63H1419,2[9C9%[1;2H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/balfour.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[9;1Hms)
+
+
+Started GET "/img/jaylormade.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500[14;1HActionController::RoutingError (No route matches [GET] "/img/jaylormade.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[19;1Hms)
+
+
+Started GET "/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500[24;63H1433,0-1[7C9%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/greygroup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[8;1Hms)
+
+
+Started GET "/img/giants.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[18;1Hms)
+
+
+Started GET "/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/pandora.png"):[24;63H1450,1[9C9%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/img/pandora.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/img/media.png" for 192.168.1.102 at 2012-05-09 17:20:54 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[13;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[22;1H)[24;63H1467,0-1[7C9%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/img/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 17:21:04 +00[7;1H500
+
+ActionController::RoutingError (No route matches [GET] "/img/cleare-chanel.png"))[10;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.66[15;1Hms)
+
+
+Started GET "/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:21:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/izvizio.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H1481,1[9C9%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/img/blog.png" for 192.168.1.102 at 2012-05-09 17:21:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/blog.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/img/twitter.png" for 192.168.1.102 at 2012-05-09 17:21:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/twitter.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H1495,2[9C9%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[5;1Hms)
+
+
+Started GET "/img/facebook.png" for 192.168.1.102 at 2012-05-09 17:21:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/facebook.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/img/youtub.png" for 192.168.1.102 at 2012-05-09 17:21:04 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[21;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):[24;63H1511,2[9C9%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1mm[9;1Hs)
+
+
+Started GET "/img/cont_us.png" for 192.168.1.102 at 2012-05-09 17:21:14 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/cont_us.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[19;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 17:21:24 +0500
+  Processing by HomeController#index as HTML[24;63H1527,2[9C9%[1;2H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/home/index" for 192.168.1.102 at 2012-05-09 17:21:24 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 17:21:24 +055[8;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[13;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[19;1H5-09 17:21:24 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[22;1Harousel.min.js"):[24;63H1542,1[9C9%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[2;1Harousel.min.js"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 17:21:22[11;1H4 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[14;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[19;1Hms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[23;1H7:21:24 +0500[24;63H1558,1[8C10%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[3;1H7:21:24 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[6;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/img/login.png" for 192.168.1.102 at 2012-05-09 17:21:24 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[21;1Hms)[24;63H1571,0-1      10%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/img/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 17:21:24 ++[4;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample2.jpg""[7;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[12;1Hms)
+
+
+Started GET "/img/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 17:21:24 ++[16;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample4.jpg""[19;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H1586,0-1      10%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/img/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 17:21:25 ++[9;1H0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[12;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[21;1H)[24;63H[K[24;63H1599,2[8C10%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/img/sigup.png" for 192.168.1.102 at 2012-05-09 17:21:35 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[10;1Hms)
+
+
+Started GET "/img/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 17:21:35 ++[14;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample1.jpg""[17;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H1612,0-1      10%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/img/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 17:21:35 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/img/slider/sample5.jpg""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/img/strelka_verx.png" for 192.168.1.102 at 2012-05-09 17:21:35 +055[19;1H00
+
+ActionController::RoutingError (No route matches [GET] "/img/strelka_verx.png"):[24;63H[K[24;63H1627,1[8C10%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/img/signupnow.png" for 192.168.1.102 at 2012-05-09 17:21:35 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/signupnow.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/img/strelka_niz.png" for 192.168.1.102 at 2012-05-09 17:21:35 +0500[19;1H0
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[22;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):[24;63H1641,2[8C10%[1;2H[?12l[?25h[?25l[27m[m[H[2J[1;1HActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[2;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[11;1H)
+
+
+Started GET "/img/sixflags.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/sixflags.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[21;1Hms)[24;63H1656,1[8C10%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/img/PG.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/img/jaylormade.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500[15;1HActionController::RoutingError (No route matches [GET] "/img/jaylormade.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[20;1Hms)
+
+
+Started GET "/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500[24;63H1670,0-1      10%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/img/greygroup.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/greygroup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[9;1Hms)
+
+
+Started GET "/img/balfour.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/balfour.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[19;1Hms)
+
+
+Started GET "/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500[24;63H1687,0-1      10%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/img/pandora.png" for 192.168.1.102 at 2012-05-09 17:21:45 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[4;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8mss[13;1H)
+
+
+Started GET "/img/media.png" for 192.168.1.102 at 2012-05-09 17:21:55 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/media.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[23;1Hms)[24;63H1704,1[8C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/img/giants.png" for 192.168.1.102 at 2012-05-09 17:21:55 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[14;1Hms)
+
+
+Started GET "/img/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 17:21:55 +00[18;1H500
+
+ActionController::RoutingError (No route matches [GET] "/img/cleare-chanel.png"))[21;1H:[24;63H[K[24;63H1718,0-1      11%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/img/izvizio.png" for 192.168.1.102 at 2012-05-09 17:21:55 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/izvizio.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[15;1Hms)
+
+
+Started GET "/img/facebook.png" for 192.168.1.102 at 2012-05-09 17:21:55 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/facebook.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H1733,2[8C11%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/img/twitter.png" for 192.168.1.102 at 2012-05-09 17:21:55 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/twitter.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/img/login.png" for 192.168.1.102 at 2012-05-09 17:22:00 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H1749,2[8C11%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/img/login.png" for 192.168.1.102 at 2012-05-09 18:37:38 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/img/login.png" for 192.168.1.102 at 2012-05-09 18:38:13 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H1765,2[8C11%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 18:39:02 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[15;1H8:39:02 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[18;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[23;1Hms)[24;63H1781,2[8C11%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[8;1H5-09 18:39:02 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[11;1Harousel.min.js"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[16;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 18:39:00[20;1H2 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[23;1Hjs"):[24;63H[K[24;63H1796,0-1      11%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[3;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[8;1Hms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 18:39:02 +055[12;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[17;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[19;1Hms)
+
+
+Started GET "/images/login.png" for 192.168.1.102 at 2012-05-09 18:39:03 +0500[24;63H1809,0-1      11%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/images/login.png" for 192.168.1.102 at 2012-05-09 18:39:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[8;1Hms)
+
+
+Started GET "/images/sigup.png" for 192.168.1.102 at 2012-05-09 18:39:03 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[18;1Hms)
+
+
+Started GET "/images/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 18:39:00[22;1H3 +0500[24;63H1824,1[8C11%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/images/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 18:39:00[2;1H3 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample1.jj[5;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/images/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 18:39:00[14;1H3 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample2.jj[17;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H1840,1[8C11%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/images/strelka_niz.png" for 192.168.1.102 at 2012-05-09 18:39:03 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/images/strelka_niz.png""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/images/PG.png" for 192.168.1.102 at 2012-05-09 18:39:04 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/PG.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H1853,1[8C12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/images/sixflags.png" for 192.168.1.102 at 2012-05-09 18:39:04 +0500[9;1H0
+
+ActionController::RoutingError (No route matches [GET] "/images/sixflags.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[16;1Hms)
+
+
+Started GET "/images/balfour.png" for 192.168.1.102 at 2012-05-09 18:39:04 +0500[21;1HActionController::RoutingError (No route matches [GET] "/images/balfour.png"):[24;63H1867,2[8C12%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/images/jaylormade.png" for 192.168.1.102 at 2012-05-09 18:39:05 +00[9;1H500
+
+ActionController::RoutingError (No route matches [GET] "/images/jaylormade.png"))[12;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/images/greygroup.png" for 192.168.1.102 at 2012-05-09 18:39:05 +055[21;1H00
+
+ActionController::RoutingError (No route matches [GET] "/images/greygroup.png"):[24;63H1883,2[8C12%[1;2H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/images/greygroup.png"):[5;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[7;1Hms)
+
+
+Started GET "/images/pandora.png" for 192.168.1.102 at 2012-05-09 18:39:05 +0500[12;1HActionController::RoutingError (No route matches [GET] "/images/pandora.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/images/giants.png" for 192.168.1.102 at 2012-05-09 18:39:06 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/giants.png"):[24;63H1897,0-1      12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/images/giants.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[6;1Hms)
+
+
+Started GET "/images/media.png" for 192.168.1.102 at 2012-05-09 18:39:06 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/media.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[16;1Hms)
+
+
+Started GET "/images/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 18:39:066[20;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/cleare-chanel.pnn[23;1Hg"):[24;63H1914,1[8C12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/images/cleare-chanel.pnn[3;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[8;1Hms)
+
+
+Started GET "/images/izvizio.png" for 192.168.1.102 at 2012-05-09 18:39:07 +0500[13;1HActionController::RoutingError (No route matches [GET] "/images/izvizio.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.77[18;1Hms)
+
+
+Started GET "/images/facebook.png" for 192.168.1.102 at 2012-05-09 18:39:07 +0500[22;1H0[24;63H1929,0-1      12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/images/facebook.png" for 192.168.1.102 at 2012-05-09 18:39:07 +0500[2;1H0
+
+ActionController::RoutingError (No route matches [GET] "/images/facebook.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[9;1Hms)
+
+
+Started GET "/images/twitter.png" for 192.168.1.102 at 2012-05-09 18:39:07 +0500[14;1HActionController::RoutingError (No route matches [GET] "/images/twitter.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[19;1Hms)
+
+
+Started GET "/images/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 18:39:00[23;1H8 +0500[24;63H1944,1[8C12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/images/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 18:39:00[3;1H8 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample4.jj[6;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[11;1Hms)
+
+
+Started GET "/images/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 18:39:00[15;1H8 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[18;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H1959,0-1      12%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[8;1H)
+
+
+Started GET "/images/blog.png" for 192.168.1.102 at 2012-05-09 18:39:18 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/blog.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[18;1Hms)
+
+
+Started GET "/images/youtub.png" for 192.168.1.102 at 2012-05-09 18:39:18 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/youtub.png"):[24;63H[K[24;63H1972,0-1      12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/images/youtub.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[7;1Hms)
+
+
+Started GET "/images/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 18:39:11[11;1H8 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample5.jj[14;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[19;1Hms)
+
+
+Started GET "/images/strelka_verx.png" for 192.168.1.102 at 2012-05-09 18:39:18  [23;1H+0500[24;63H1987,0-1      12%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/images/strelka_verx.png" for 192.168.1.102 at 2012-05-09 18:39:18  [3;1H+0500
+
+ActionController::RoutingError (No route matches [GET] "/images/strelka_verx.pngg[6;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/images/signupnow.png" for 192.168.1.102 at 2012-05-09 18:39:18 +055[15;1H00
+
+ActionController::RoutingError (No route matches [GET] "/images/signupnow.png"):[20;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H2001,0-1      12%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/images/cont_us.png" for 192.168.1.102 at 2012-05-09 18:39:18 +0500[8;1HActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[9;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[18;1H)
+
+
+Started GET "/images/" for 192.168.1.102 at 2012-05-09 18:39:34 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images"):[24;63H[K[24;63H2015,1[8C13%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/images"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/images/rails.png" for 192.168.1.102 at 2012-05-09 18:39:45 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[17;1Hms)
+
+
+Started GET "/assets/images/rails.png" for 192.168.1.102 at 2012-05-09 18:41:56  [21;1H+0500
+Served asset /images/rails.png - 404 Not Found (34ms)[24;63H2029,0-1      13%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HServed asset /images/rails.png - 404 Not Found (34ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/rails.pngg[4;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[9;1Hms)
+
+
+Started GET "/assets/images/rails.png" for 192.168.1.102 at 2012-05-09 18:42:03  [13;1H+0500
+Served asset /images/rails.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/rails.pngg[17;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[22;1Hms)[24;63H2045,1[8C13%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/app/assets/images/rails.png" for 192.168.1.102 at 2012-05-09 18:422[7;1H:12 +0500
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/railss[10;1H.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/app/assets/img/rails.png" for 192.168.1.102 at 2012-05-09 18:42:322[19;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/app/assets/img/rails.pnn[22;1Hg"):[24;63H[K[24;63H2059,1[8C13%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/app/assets/img/rails.pnn[2;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/assets/img/rails.png" for 192.168.1.102 at 2012-05-09 18:42:36 +055[11;1H00
+Served asset /img/rails.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/img/rails.png"):[17;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[19;1Hms)
+
+
+Started GET "/img/rails.png" for 192.168.1.102 at 2012-05-09 18:42:42 +0500[24;63H2072,1[8C13%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/img/rails.png" for 192.168.1.102 at 2012-05-09 18:42:42 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/rails.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[7;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[8;1Hms)
+
+
+Started GET "/img/rails.png" for 192.168.1.102 at 2012-05-09 18:42:45 +0500
+
+ActionController::RoutingError (No route matches [GET] "/img/rails.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[18;1Hms)
+
+
+Started GET "/" for 192.168.1.102 at 2012-05-09 18:46:02 +0500
+
+ActionController::RoutingError (No route matches [GET] "/"):[24;63H2087,1[8C13%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HActionController::RoutingError (No route matches [GET] "/"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (41..[7;1H3ms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 18:46:08 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 18:46:09 +055[17;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[22;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[23;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4[22;1H[1m[34m@                                                                               [23;1H@                                                                               [m[24;63H2104,0-1      13%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[9;1H5-09 18:46:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[12;1Harousel.min.js"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 18:46:00[21;1H9 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min.[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H2120,2[8C13%[1;2H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[5;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[14;1H8:46:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[17;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H[K[24;63H2133,1[8C13%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/images/sigup.png" for 192.168.1.102 at 2012-05-09 18:46:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/sigup.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[13;1Hms)
+
+
+Started GET "/images/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 18:46:00[17;1H9 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample2.jj[20;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H2146,1[8C13%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/images/login.png" for 192.168.1.102 at 2012-05-09 18:46:09 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/login.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/images/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 18:46:00[19;1H9 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample4.jj[22;1Hpg"):[24;63H2160,2[8C13%[1;2H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/images/slider/sample4.jj[2;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[7;1Hms)
+
+
+Started GET "/images/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 18:46:00[11;1H9 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[14;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2mm[23;1Hs)[24;63H2175,1[8C14%[1;1H[?12l[?25h[?25l[1;23r[1;1H[18M[1;24r[8;1HStarted GET "/images/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 18:46:11[9;1H9 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample1.jj[12;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[16;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[17;1Hms)
+
+
+Started GET "/images/strelka_verx.png" for 192.168.1.102 at 2012-05-09 18:46:19  [21;1H+0500
+
+ActionController::RoutingError (No route matches [GET] "/images/strelka_verx.png[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H2187,1[8C14%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[4;1HActionController::RoutingError (No route matches [GET] "/images/strelka_verx.pngg[5;1H"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[10;1Hms)
+
+
+Started GET "/images/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 18:46:11[14;1H9 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/slider/sample5.jj[17;1Hpg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H[K[24;63H2199,1[8C14%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/images/strelka_niz.png" for 192.168.1.102 at 2012-05-09 18:46:19 ++[7;1H0500
+
+ActionController::RoutingError (No route matches [GET] "/images/strelka_niz.png""[10;1H):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/images/signupnow.png" for 192.168.1.102 at 2012-05-09 18:46:19 +055[19;1H00
+
+ActionController::RoutingError (No route matches [GET] "/images/signupnow.png"):[24;63H[K[24;63H2212,1[8C14%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[5;1Hms)
+
+
+Started GET "/images/PG.png" for 192.168.1.102 at 2012-05-09 18:46:19 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[11;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[17;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[19;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[20;1H)
+
+
+Started GET "/images/sixflags.png" for 192.168.1.102 at 2012-05-09 18:46:29 +050[23;1H[1m[34m@                                                                               [m[24;63H2226,2[8C14%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/images/sixflags.png" for 192.168.1.102 at 2012-05-09 18:46:29 +0500[4;1H0
+
+ActionController::RoutingError (No route matches [GET] "/images/sixflags.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/images/balfour.png" for 192.168.1.102 at 2012-05-09 18:46:29 +0500[16;1HActionController::RoutingError (No route matches [GET] "/images/balfour.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[21;1Hms)[24;63H2239,0-1      14%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/images/jaylormade.png" for 192.168.1.102 at 2012-05-09 18:46:29 +00[4;1H500
+
+ActionController::RoutingError (No route matches [GET] "/images/jaylormade.png"))[7;1H:
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[11;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[12;1Hms)
+
+
+Started GET "/images/pandora.png" for 192.168.1.102 at 2012-05-09 18:46:29 +0500[17;1HActionController::RoutingError (No route matches [GET] "/images/pandora.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[21;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[22;1Hms)[24;63H2255,0-1      14%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[6;1HStarted GET "/images/greygroup.png" for 192.168.1.102 at 2012-05-09 18:46:29 +055[7;1H00
+
+ActionController::RoutingError (No route matches [GET] "/images/greygroup.png"):[12;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[13;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[14;1Hms)
+
+
+Started GET "/images/giants.png" for 192.168.1.102 at 2012-05-09 18:46:29 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[20;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H[K[24;63H2270,1[8C14%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/_trace.erb (2.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[6;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[8;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9mss[9;1H)
+
+
+Started GET "/images/media.png" for 192.168.1.102 at 2012-05-09 18:46:39 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/media.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[18;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.11[19;1Hms)
+
+
+Started GET "/images/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 18:46:399[23;1H +0500[24;63H2284,2[8C14%[1;2H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/images/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 18:46:399[3;1H +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/cleare-chanel.pnn[6;1Hg"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[11;1Hms)
+
+
+Started GET "/images/izvizio.png" for 192.168.1.102 at 2012-05-09 18:46:39 +0500[16;1HActionController::RoutingError (No route matches [GET] "/images/izvizio.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[21;1Hms)[24;63H2298,0-1      14%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/images/twitter.png" for 192.168.1.102 at 2012-05-09 18:46:39 +0500[5;1HActionController::RoutingError (No route matches [GET] "/images/twitter.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[9;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[10;1Hms)
+
+
+Started GET "/images/facebook.png" for 192.168.1.102 at 2012-05-09 18:46:39 +0500[14;1H0
+
+ActionController::RoutingError (No route matches [GET] "/images/facebook.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[20;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.55[21;1Hms)[24;63H2313,0-1      14%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HStarted GET "/images/blog.png" for 192.168.1.102 at 2012-05-09 18:46:40 +0500
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection witt[6;1Hhin 5 seconds.  The max pool size is currently 5; consider increasing it.):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[12;1Hspatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2mm[15;1Hs)
+
+
+Started GET "/images/cont_us.png" for 192.168.1.102 at 2012-05-09 18:46:50 +0500[20;1HActionController::RoutingError (No route matches [GET] "/images/cont_us.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_di[23;1H[1m[34m@                                                                               [m[24;63H2329,0-1      15%[1;1H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/images/youtub.png" for 192.168.1.102 at 2012-05-09 18:46:50 +0500
+
+ActionController::RoutingError (No route matches [GET] "/images/youtub.png"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[14;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[15;1Hms)
+
+
+Started GET "/assets/example.png" for 192.168.1.102 at 2012-05-09 18:47:54 +0500[19;1HServed asset /example.png - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/example.png"):[24;63H2344,2[8C15%[1;2H[?12l[?25h[?25l[27m[m[H[2J[3;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[4;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.44[5;1Hms)
+
+
+Started GET "/assets/rails.png" for 192.168.1.102 at 2012-05-09 18:48:00 +0500
+Served asset /rails.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/balfour.png" for 192.168.1.102 at 2012-05-09 18:48:08 +0500[13;1HServed asset /balfour.png - 200 OK (9ms)
+
+
+Started GET "/home/index" for 192.168.1.102 at 2012-05-09 18:50:08 +0500
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 18:50:00[23;1H8 +0500[24;63H2361,2[8C15%[1;2H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/home/js/jquery-1.7.min.js" for 192.168.1.102 at 2012-05-09 18:50:00[3;1H8 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery-1.7.min..[6;1Hjs"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[10;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[11;1Hms)
+
+
+Started GET "/home/style/feature-carousel.css" for 192.168.1.102 at 2012-05-09 11[15;1H8:50:08 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/style/feature-caroo[18;1Husel.css"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[22;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[23;1Hms)[24;63H2379,0-1      15%[1;1H[?12l[?25h[?25l[1;23r[1;1H[19M[1;24r[7;1HStarted GET "/home/js/jquery.featureCarousel.min.js" for 192.168.1.102 at 2012-00[8;1H5-09 18:50:08 +0500
+
+ActionController::RoutingError (No route matches [GET] "/home/js/jquery.featureCC[11;1Harousel.min.js"):
+
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[15;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[16;1Hms)
+
+
+Started GET "/home/style/style.css" for 192.168.1.102 at 2012-05-09 18:50:08 +055[20;1H00
+
+ActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[24;63H[K[24;63H2392,0-1      15%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HActionController::RoutingError (No route matches [GET] "/home/style/style.css"):[4;1HRendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dii[5;1Hspatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.33[6;1Hms)
+
+
+Started GET "/assets/slider/sample2.jpg" for 192.168.1.102 at 2012-05-09 18:50:00[10;1H8 +0500
+Served asset /slider/sample2.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/login.png" for 192.168.1.102 at 2012-05-09 18:50:08 +0500
+Served asset /login.png - 200 OK (10ms)
+
+
+Started GET "/assets/slider/sample4.jpg" for 192.168.1.102 at 2012-05-09 18:50:00[19;1H8 +0500
+Served asset /slider/sample4.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/sigup.png" for 192.168.1.102 at 2012-05-09 18:50:08 +0500[24;63H2406,1[8C15%[1;1H[?12l[?25h[?25l[27m[m[H[2J[2;1HStarted GET "/assets/sigup.png" for 192.168.1.102 at 2012-05-09 18:50:08 +0500
+Served asset /sigup.png - 200 OK (11ms)
+
+
+Started GET "/assets/slider/sample1.jpg" for 192.168.1.102 at 2012-05-09 18:50:00[7;1H8 +0500
+Served asset /slider/sample1.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/slider/sample3.jpg" for 192.168.1.102 at 2012-05-09 18:50:00[12;1H8 +0500
+Served asset /slider/sample3.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/slider/sample5.jpg" for 192.168.1.102 at 2012-05-09 18:50:00[17;1H9 +0500
+Served asset /slider/sample5.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/signupnow.png" for 192.168.1.102 at 2012-05-09 18:50:09 +055[22;1H00
+Served asset /signupnow.png - 200 OK (11ms)[24;63H2423,0-1      15%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/assets/signupnow.png" for 192.168.1.102 at 2012-05-09 18:50:09 +055[2;1H00
+Served asset /signupnow.png - 200 OK (11ms)
+
+
+Started GET "/assets/strelka_verx.png" for 192.168.1.102 at 2012-05-09 18:50:09  [7;1H+0500
+Served asset /strelka_verx.png - 200 OK (10ms)
+
+
+Started GET "/assets/strelka_niz.png" for 192.168.1.102 at 2012-05-09 18:50:09 ++[12;1H0500
+Served asset /strelka_niz.png - 200 OK (22ms)
+
+
+Started GET "/assets/PG.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500
+Served asset /PG.png - 200 OK (9ms)
+
+
+Started GET "/assets/sixflags.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500[21;1H0
+Served asset /sixflags.png - 200 OK (9ms)[24;63H2440,1[8C15%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HServed asset /sixflags.png - 200 OK (9ms)
+
+
+Started GET "/assets/balfour.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500[5;1HServed asset /balfour.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jaylormade.png" for 192.168.1.102 at 2012-05-09 18:50:09 +00[9;1H500
+Served asset /jaylormade.png - 200 OK (10ms)
+
+
+Started GET "/assets/greygroup.png" for 192.168.1.102 at 2012-05-09 18:50:09 +055[14;1H00
+Served asset /greygroup.png - 200 OK (10ms)
+
+
+Started GET "/assets/pandora.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500[19;1HServed asset /pandora.png - 200 OK (10ms)
+
+
+Started GET "/assets/giants.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500
+Served asset /giants.png - 200 OK (10ms)[24;63H2457,1[8C15%[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1HStarted GET "/assets/giants.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500
+Served asset /giants.png - 200 OK (10ms)
+
+
+Started GET "/assets/facebook.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500[6;1H0
+Served asset /facebook.png - 200 OK (10ms)
+
+
+Started GET "/assets/izvizio.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500[11;1HServed asset /izvizio.png - 200 OK (10ms)
+
+
+Started GET "/assets/twitter.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500[15;1HServed asset /twitter.png - 200 OK (10ms)
+
+
+Started GET "/assets/blog.png" for 192.168.1.102 at 2012-05-09 18:50:09 +0500
+Served asset /blog.png - 200 OK (9ms)
+
+
+Started GET "/assets/cleare-chanel.png" for 192.168.1.102 at 2012-05-09 18:50:099[23;1H +0500[24;63H2476,1[8C16%[1;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?

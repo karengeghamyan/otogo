@@ -1,0 +1,235 @@
+!!!
+%head
+  %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+  %title Login
+  %meta{:content => "", :name => "description"}/
+  %meta{:content => "", :name => "keywords"}/
+  = stylesheet_link_tag "application"
+  = stylesheet_link_tag "feature-carousel"
+  = stylesheet_link_tag "slider"
+  = javascript_include_tag "application"
+%body
+  #container
+    / start container
+    #wrapper_signup
+      / start wrapper
+      #header
+        / start header
+        #logo
+          / start logo
+        / end logo
+        #navigation
+          / start navigation
+          %ul
+            %li
+              %a{:href => "#"} SERVICES
+            %li
+              %a{:href => "#"} BENEFITS
+            %li
+              %a{:href => "#"} PLAN&PRACING
+          %a{:href => "#"}
+            %img{:src => "/assets/login.png"}/
+          %a{:href => "#"}
+            %img{:src => "/assets/sigup.png"}/
+        / end navigation
+        .best_services
+          / start simple_busines
+          Login to oTogo!
+        / start simple_busines
+        .login_description
+          / start ict_description
+          %h2 Lorem Ipsum is siple dumy
+          %p dummy text ever since the 1500s, when an printer
+          %p took a galley of type and scrambled.
+          %p took a galley of type and scrambled.
+        / end ict_description
+      / end header
+      #form_login
+        .form
+          .form_title
+            %span>
+              %b> Login
+              to your account
+            Don't have an account?
+            %a{:href => "#"}
+              %b Register
+          %ul.name
+            %li Email or User Name
+            %li Password
+          = form_tag user_session_path do
+            %ul
+              %li 
+                = text_field_tag 'user[email]'
+              %li 
+                = password_field_tag 'user[password]'
+              %li 
+                = check_box_tag 'user[remember_me]'
+              %li 
+                = label_tag 'user[remember_me]', 'Remember me'
+              %li 
+                %button Sign in
+              %li 
+                = link_to "Forgot your password?", new_password_path('user')
+          -# %form
+            -# / start form
+            -# %ul.type
+              -# %li
+                -# %input.input{:type => "text"}
+              -# %li
+                -# %input.input{:type => "password"}
+              -# %li
+                -# %input{:type => "checkbox"}
+                  -# %span I agree to the terms of use & privacy police
+              -# %li
+                -# %button.login_button{:type => "submit"}
+          / end form
+    / end wrapper
+    #content
+      / start content
+      #topcolumn_login
+        / start topcolumn
+        .header_services
+          %p
+            A
+            %b cute tittle
+            for note to display in the side
+          %p
+            %b that will be changing constantly
+        #content_services
+          / start content_services
+          #left_content_login
+            %img{:src => "/assets/login/aphone.png"}
+          #right_content_login
+            %h4
+              This service is
+              %b also avaliable
+              on your mobile device, for
+              %b free!
+              %h4
+                %h3
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                  it to make a type specimen book.
+                %ul
+                  %li
+                    %p
+                      %img{:src => "/assets/login/nav_str.png"}
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  %li
+                    %p
+                      %img{:src => "/assets/login/nav_str.png"}
+                        Lorem Ipsum is simply dummy text of the printing and typesetting.
+                  %li
+                    %p
+                      %img{:src => "/assets/login/nav_str.png"}
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                %a{:href => "#"}
+                  %img.app_button{:src => "/assets/login/app_button.png"}/
+        / end content_services
+      / end topcolumn
+    / end content
+  / end container
+  #footer
+    #footer-container-top
+      / start footer-container-top
+      #footer-lefcolumn
+        / start lefcolumn
+        .col1
+          %h5 Solutions
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Services
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Benefits
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Company
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+        .col1
+          %h5 Plan & Pricing
+          %ul
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+            %li
+              %a{:href => "#"} Lorem Ipsum
+      / end lefcolumn
+      #footer-rightcolumn
+        / start footer-bar
+        %ul
+          %li
+            %a{:href => "#"}
+              %img{:src => "/assets/facebook.png"}
+                %p Facebook
+          %li
+            %a{:href => "#"}
+              %img{:src => "/assets/twitter.png"}
+                %p Twitter
+          %li
+            %a{:href => "#"}
+              %img{:src => "/assets/blog.png"}
+                %p Blog
+          %li.right
+            %a{:href => "#"}
+              %img{:src => "/assets/youtub.png"}
+                %p YouTube
+      / end footer-bar
+      #footer-container-bottom
+        / start footer-container-bottom
+        %p © 2009, 2010 Mobile Tribe Management Corporation
+        .bottom_nav
+          %ul
+            %li
+              %a{:href => "#"} About Us
+            %li
+              %a{:href => "#"} |Contact Us
+            %li
+              %a{:href => "#"} |Privacy
+            %li
+              %a{:href => "#"} |Help
+            %li
+              %a{:href => "#"} |Blog
+            %li
+              %a{:href => "#"} Contact Us
+        .button_contact
+          %a{:href => "#"}
+            %img{:src => "/assets/cont_us.png"}/
+      / end footer-container-bottom
+    / end footer-container-top
+  / end footer
