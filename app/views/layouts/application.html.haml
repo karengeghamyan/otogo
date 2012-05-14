@@ -9,18 +9,12 @@
     = stylesheet_link_tag "feature-carousel"
     = stylesheet_link_tag "slider"
     = javascript_include_tag "application"
-  <body
+  %body
   #container
-    / start container
     #wrapper
-      / start wrapper
       #header
-        / start header
         #logo
-          / start logo
-        / end logo
         #navigation
-          / start navigation
           %ul
             %li
               %a{:href => "#"} SERVICES
@@ -28,55 +22,9 @@
               %a{:href => "#"} BENEFITS
             %li
               %a{:href => "#"} PLAN&PRACING
-          %a{:href => "#"}
-            %img{:src => "/assets/login.png"}/
-          %a{:href => "#"}
-            %img{:src => "/assets/sigup.png"}/
-        / end navigation
-        .simple_busines
-          / start simple_busines
-          Simplify your digital business!
-        / end simple_busines
-        .ict_text
-          / start ict_text
-          %h2 ICT Cloud Services - For Small and Medium Businesses
-        / end ict_text
-        .ict_description
-          / start ict_description
-          Select and provision all your office applications, services and devices from one easy to use location
-        / end ict_description
-        #services_slider
-          .carousel-container
-            #carousel
-              .carousel-feature
-                %a{:href => "#"}
-                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample1.jpg"}/
-                .carousel-caption
-              .carousel-feature
-                %a{:href => "#"}
-                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample2.jpg"}/
-                .carousel-caption
-              .carousel-feature
-                %a{:href => "#"}
-                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample3.jpg"}/
-                .carousel-caption
-              .carousel-feature
-                %a{:href => "#"}
-                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample4.jpg"}/
-              .carousel-feature
-                %a{:href => "#"}
-                  %img.carousel-image{:alt => "Image Caption", :src => "/assets/slider/sample5.jpg"}/
-                .carousel-caption
-          .right_but
-            .verx
-              %img{:src => "/assets/strelka_verx.png"}/
-            .center_up
-              %a{:href => "#"}
-                %img{:src => "/assets/signupnow.png"}/
-            .niz
-              %img{:src => "/assets/strelka_niz.png"}/
-      / end header
-    / end wrapper
+          =link_to(image_tag("/assets/login.png"), new_user_session_path)
+          =link_to(image_tag("/assets/sigup.png"), new_user_registration_path)
+        =h yield(:top_bar)
     = yield
   / end container
   #footer
