@@ -6,10 +6,10 @@
 
 # Ignore bundler config
 /.bundle
-
+.idea
 # Ignore the default SQLite database.
 /db/*.sqlite3
-
+otogo
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
