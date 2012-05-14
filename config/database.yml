@@ -5,6 +5,8 @@
 #   gem 'sqlite3'
 development:
   adapter: mysql2
+#  adapter: sqlite3
+#  database: db/development.sqlite3
   database: otogo
   username: root
   password: root
